@@ -1,5 +1,13 @@
+#
 class Validator
   def binary(text)
-    true
+  end
+
+  def word(text)
+    if text != /\S*[^\s\d]/i
+      true
+    else
+      false
+    end
   end
 end
