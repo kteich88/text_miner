@@ -36,7 +36,7 @@ Once you have completed the above installation processes your system is ready to
 Please complete the following procedure to run the program on a live system:
   1. Open Terminal.
   2. Change your directory to the one that which you would like to save this project. `$ cd folder_name`
-  3. Then run the command `$ git clone https://github.com/kteich88/text_miner.git` and `$ cd text_miner`
+  3. Then run the commands `$ git clone https://github.com/kteich88/text_miner.git` and `$ cd text_miner`
   3. Type `rspec spec/spec_file_name.rb` to run the rspec testing file/folder.
 
 ## Built With
