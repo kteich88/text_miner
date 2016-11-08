@@ -1,6 +1,6 @@
 # Testing 1,2,3...
 
-The programs enclosed in this zip file are intended for RSPEC testing and practive using regular expressions.
+The programs included in this project are intended for Rspec testing and practice using regular expressions.  Please see Deployment for further instruction.
 
 ## Getting Started
 
@@ -17,25 +17,27 @@ Find Terminal - to run program
 
 Install Homebrew - to store program files properly
   1. Open up Terminal.
-  2. Run```ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
-  3. Run```brew doctor```
+  2. Run `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+  3. Run `brew doctor`
 
 Install rbenv & ruby-build - to install and compile different versions of Ruby code language
   1. Open up Terminal
-  2. Run```brew install ruby-build rbenv```
-  3. Run```echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_profile```
+  2. Run `brew install ruby-build rbenv`
+  3. Run `echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_profile`
 
-Install ruby 2.3.1 - the latest version of Ruby
-  1. Close and reopen Terminal.```rbenv install 2.3.1```
-  2. After quite some time, run:```rbenv global 2.3.1```
-Once you have completed the above installation processes your system should be ready to launch the program!
+Install ruby 2.3.1 - or latest version of Ruby
+  1. Close and reopen Terminal. `rbenv install 2.3.1`
+  2. After quite some time, run: `rbenv global 2.3.1`
+  
+Once you have completed the above installation processes your system is ready to launch the program!
 
 ## Deployment
 
 Please complete the following procedure to run the program on a live system:
   1. Open Terminal.
-  2. Change your directory to the one that which you have saved this zip file.`cd folder_name`
-  3. Type `rspec spec/spec_file_name.rb` to run the rspec testing.
+  2. Change your directory to the one that which you would like to save this project. `$ cd folder_name`
+  3. Then run the command `$ git clone https://github.com/kteich88/text_miner.git` and `$ cd text_miner`
+  3. Type `rspec spec/spec_file_name.rb` to run the rspec testing file/folder.
 
 ## Built With
 
@@ -44,8 +46,10 @@ Please complete the following procedure to run the program on a live system:
 ## Authors
 
 * **Kristine Teichmann**
+* **Bryce Darling**
 
 ## Acknowledgments
 
 * The Iron Yard - Durham
-* Bryce Darling
+
+
